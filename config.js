@@ -1,6 +1,4 @@
 System.config({
-    transpiler: 'typescript',
-    typescriptOptions: {emitDecoratorMetadata: true},
     map: {
         'app' : 'dist/app',
         'rxjs': 'node_modules/rxjs',
