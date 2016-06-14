@@ -1,11 +1,14 @@
 System.config({
   map: {
+    'boot': 'dist/',
     'app': 'dist/app/',
     'app/+main': 'dist/app/+main',
     'rxjs': 'node_modules/rxjs',
-    '@angular': 'node_modules/@angular'
+    '@angular': 'node_modules/@angular',
+    'text': 'node_modules/systemjs-plugin-text/text.js'
   },
   packages: {
+    'boot': { main: 'boot', defaultExtension: 'js' },
     'app': { main: 'index', defaultExtension: 'js' },
     'app/+main': { main: 'index', defaultExtension: 'js' },
     'rxjs': { main: 'index.js' },

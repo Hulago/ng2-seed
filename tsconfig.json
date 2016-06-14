@@ -10,12 +10,7 @@
         "noImplicitAny": true,
         "sourceMap": true,
         "outDir": "./dist",
-        "noLib": false,
-        "allowUnreachableCode": false,
-        "allowUnusedLabels": false,
-        "noImplicitReturns": true,
-        "noImplicitUseStrict": false,
-        "noFallthroughCasesInSwitch": true
+        "noLib": false
     },
     "exclude": [
         "node_modules",
